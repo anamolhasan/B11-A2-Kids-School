@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-nmormal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.link-prymary{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.display-flex{
+    display: flex;
+}
+.btn-prymary{
+   background-color: orange; 
+   border-radius: 12px;
+   padding: 10px 60px;
+   color: white;
+   font-weight: 600;
+   font-size: 1.3rem;
+   border: none;
+}
+
+/* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    align-items: center;
+    gap: 11px;
+}
+.logo-name{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.logo-icon{
+    width: 60px;
+    height: 60px;
+}
+.nav-list{
+    gap: 32px;
+}
+.nav-link1{
+    color: rgb(254, 163, 1);
+}
+.nav-link2{
+    color: rgb(1, 172, 253);
+}
+.nav-link3{
+    color: rgb(5, 212, 223);
+}
+.nav-link4{
+    color: rgb(93, 88, 239);
+}
+.menu-icon{
+    display: none;
+}
+.hr{
+    border: 1px solid orange;
+    display: none;
+}
+
+/* banner */
+.banner{
+    gap: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-title-style1{
+    color: rgb(254, 163, 1);
+}
+.banner-title-style2{
+    color: rgb(1, 172, 253);
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgb(17, 17, 17);
+    margin:24px 0px ;
+}
+.btn-contant{
+    background-color: black;
+}
+/* responsiv mobail */
+@media screen and (max-width:576px) {
+    .logo-name, .nav-list, .btn-nav{
+        display: none;
+    }
+
+    .menu-icon, .hr{
+        display: block;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+}
