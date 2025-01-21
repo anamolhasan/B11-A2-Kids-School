@@ -11,8 +11,9 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
-body{
+.bg-width{
     /* max-width: 1200px; */
     max-width: 1440px;
     margin: 0px auto;
@@ -124,7 +125,7 @@ body{
 }
 
 .stander-icon{
-    padding: 96px 74px;
+    padding: 60px 74px;
 }
 .standerbox{
   text-align: center;
@@ -161,7 +162,6 @@ body{
     border: none;
     font-weight: 500;
     font-size: 1rem;
-    cursor: pointer;
 }
 .stander-btn1{
     color: rgb(100, 200, 255);
@@ -189,6 +189,65 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* -- */
+.bg-color{
+    background-image: linear-gradient(white, rgba(254, 163, 1, 0.30));
+}
+.our-container{
+    display: grid;
+    grid-template-columns: 560px repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 80px ;
+}
+.div-1{
+   grid-row: span 2;
+}
+.our-card{
+    border-radius: 16px;
+    background-color: white;
+}
+.our-card-img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.our-card-desc{
+    padding: 58px 34px 0px 38px;
+}
+.our-card-title{
+   font-weight: 700px; 
+   font-size: 1.7rem;
+   line-height: 38px;
+   margin-bottom: 45px;
+}
+.our-cards-title{
+
+    margin: 25px auto;
+    font-weight: 800;
+    font-size: 1rem;
+    width: 213px;
+}
+.our-card-description{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+}
+#div-6{
+    display: none;
+}
+.btn-conta{
+   
+    margin: 80px 0px 60px 0px;
+}
+.btn-pry{
+    background-color: #0a0a0a; 
+    border-radius: 12px;
+    padding: 10px 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border: none;
 }
 /* responsiv mobail */
 @media screen and (max-width:576px) {
