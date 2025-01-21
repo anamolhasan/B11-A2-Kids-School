@@ -13,7 +13,8 @@
     list-style: none;
 }
 body{
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    max-width: 1440px;
     margin: 0px auto;
 }
 .link-prymary{
@@ -207,6 +208,13 @@ body{
     }
     .stander-container{
         flex-direction: column;
-        margin: 0px 20px;
+        margin: 0px 30px;
+    }
+    .stander-title{
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+    }
+    .icon-div{
+        display: none;
     }
 }
