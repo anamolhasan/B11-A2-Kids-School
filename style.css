@@ -218,20 +218,24 @@
 .our-card{
     border-radius: 16px;
     background-color: white;
+   
+}
+.btn-position{
     position: relative;
 }
 .our-btn-box{
    position: absolute;
    background-color: skyblue;
    color: white;
-   top: 46%;
+   bottom: -5%;
    left: 8%;
+   /* margin-bottom: 30px; */
 }
 .our-btns-box{
    position: absolute;
    background-color: skyblue;
    color: white;
-   top: 68%;
+   bottom: -5%;
    left: 8%;
 }
 .our-card-img1{
@@ -318,14 +322,18 @@ a{
     .menu-icon, .hr-row{
         display: block;
     }
-
+     .header{
+        /* box-sizing: border-box; */
+        /* margin: 0px 20px; */
+        padding: 0px 50px;
+     }
      .banner{
         flex-direction: column-reverse;
         text-align: center;
         margin: 0px 40px;
     }
     .banner-img{
-         padding: 0px 40px;
+         padding: 0px 20px;
     }
     .banner-title{
         font-size: 2rem;
@@ -356,7 +364,7 @@ a{
     .our-btns-box{
         position: absolute;
         background-color: skyblue;
-        top: 60%;
+        bottom: -5%;
         left: 8%;
      }
      .our-cards-title{
