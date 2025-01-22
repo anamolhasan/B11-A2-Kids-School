@@ -82,6 +82,7 @@
 .hr-row{
     border: 1px solid orange;
     display: none;
+    margin: 15px 0px;
 }
 
 /* banner */
