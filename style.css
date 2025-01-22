@@ -211,7 +211,21 @@
 .our-card{
     border-radius: 16px;
     background-color: white;
-   
+    position: relative;
+}
+.our-btn-box{
+   position: absolute;
+   background-color: skyblue;
+   color: white;
+   top: 45%;
+   left: 8%;
+}
+.our-btns-box{
+   position: absolute;
+   background-color: skyblue;
+   color: white;
+   top: 70%;
+   left: 8%;
 }
 .our-card-img1{
     width: 100%;
@@ -328,10 +342,15 @@ a{
         /* grid-template-columns: 1fr; */
         grid-template-columns: repeat(2, 1fr);
     }
- 
     #div-6{
         display: block;
     }
+    .our-btns-box{
+        position: absolute;
+        background-color: skyblue;
+        top: 55%;
+        left: 5%;
+     }
     /* footer */
     .grid{
         grid-template-columns: 1fr;
