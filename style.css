@@ -6,9 +6,9 @@
     font-weight: 400;
     font-style: normal;
   }
-  /* .none{
+  .none{
     display: none;
-  } */
+  }
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +47,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
-    /* margin: 0px 20px; */
 }
 .logo{
     align-items: center;
@@ -77,11 +76,10 @@
     color: rgb(93, 88, 239);
 }
 .menu-icon{
-    display: none;
+    font-size: 2rem;
 }
 .hr-row{
     border: 1px solid orange;
-    display: none;
     margin: 15px 0px;
 }
 
@@ -92,9 +90,6 @@
 .banner-title{
     font-weight: 700;
     font-size: 3.5rem;
-}
-.banner-img{
-    /* padding: 0px 80px; */
 }
 .banner-imgs{
     width: 100%;
@@ -117,7 +112,6 @@
 .stander-container{
     gap: 28px;
     margin-top: 80px ;
-    
 }
 .stander{
     background-image: url('./assets/bg.png');
@@ -155,7 +149,6 @@
 .stander-box-title{
     font-weight: 700;
     font-size: 1.7rem;
-    /* margin: 2rem; */
 }
 .stander-box-desc{
     padding: 33px 40px;
@@ -230,11 +223,9 @@
    color: white;
    bottom: -5%;
    left: 8%;
-   /* margin-bottom: 30px; */
 }
 .our-btns-box{
    position: absolute;
-   background-color: skyblue;
    color: white;
    bottom: -5%;
    left: 8%;
@@ -316,7 +307,7 @@ a{
 
 /* responsiv mobail */
 @media screen and (max-width: 576px) {
-    .logo-name, .nav-list, .btn-nav, #div-one{
+    .logo-name, .nav-list, .btn-nav, #div-one, .icon-div{
         display: none;
     }
 
@@ -324,8 +315,7 @@ a{
         display: block;
     }
      .header{
-        /* box-sizing: border-box; */
-        /* margin: 0px 20px; */
+        margin-top: 20px;
         padding: 0px 50px;
      }
      .banner{
@@ -351,12 +341,8 @@ a{
         font-size: 1.8rem;
         padding-bottom: 40px;
     }
-    .icon-div{
-        display: none;
-    }
     .our-container{
         margin: 0px 20px;
-        /* grid-template-columns: 1fr; */
         grid-template-columns: repeat(2, 1fr);
     }
     #div-6{
@@ -364,7 +350,6 @@ a{
     }
     .our-btns-box{
         position: absolute;
-        background-color: skyblue;
         bottom: -5%;
         left: 8%;
      }
@@ -373,12 +358,10 @@ a{
         font-size: 0.7rem;
         margin: 10px ;
      }
-     .btn-parent{
-    }
     .btn-chaid{
         font-weight: 300;
-     
-        border-radius: 40px;
+        font-size: 0.8rem;
+        border-radius: 47px;
         padding: 5px 10px;
         border: none;
         cursor: pointer;  
@@ -397,89 +380,3 @@ a{
        }
 }
 
-/* tab */
-
-@media screen and (min-width: 576px) and (max-width:992px) {
-    /* .logo-name, .nav-list, .btn-nav, #div-one{
-        display: none;
-    }
-
-    .menu-icon, .hr-row{
-        display: block;
-    }
-
-     .banner{
-        flex-direction: column-reverse;
-        text-align: center;
-        margin: 0px 40px;
-    }
-    .banner-img{
-         padding: 0px 80px;
-    }
-    .banner-title{
-        font-size: 2rem;
-    }
-    .banner-description {
-        margin: 20px 0px;
-      }
-      
-    .stander-container{
-        flex-direction: column;
-        margin: 0px 40px;
-    }
-    .stander-title{
-        font-size: 1.8rem;
-        padding-bottom: 40px;
-    }
-    .icon-div{
-        display: none;
-    }
-    .our-container{
-        margin: 0px 20px;*/
-        /* grid-template-columns: 1fr; */
-        /* grid-template-columns: repeat(2, 1fr);
-    } */ 
-    /* #div-6{
-        display: block;
-    }
-    .our-btn-box{
-        position: absolute;
-        background-color: skyblue;
-        color: white;
-        top: 90%;
-        left: 8%;
-     }
-    .our-btns-box{
-        position: absolute;
-        background-color: skyblue;
-        top: 60%;
-        left: 8%;
-     }
-     .our-cards-title{
-        font-weight: 700;
-        font-size: 0.7rem;
-        margin: 10px ;
-     }
-     .btn-parent{
-    }
-    .btn-chaid{
-        font-weight: 300;
-     
-        border-radius: 40px;
-        padding: 5px 10px;
-        border: none;
-        cursor: pointer;  
-    } */
-    /* footer */
-    /* .grid{
-        grid-template-columns: 1fr;
-    
-       gap: 50px;
-    } 
-    .footer-div{
-        padding: 80px ;
-    }
-    .footer-list{
-        gap: 0px;
-       } */
-}
