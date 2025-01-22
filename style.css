@@ -127,6 +127,7 @@
     padding: 60px 74px;
 }
 .standerbox{
+    padding-bottom: 30px ;
   text-align: center;
   border-radius: 18px;
   transition:  box-shadow 0.3s;
@@ -217,14 +218,14 @@
    position: absolute;
    background-color: skyblue;
    color: white;
-   top: 45%;
+   top: 46%;
    left: 8%;
 }
 .our-btns-box{
    position: absolute;
    background-color: skyblue;
    color: white;
-   top: 70%;
+   top: 68%;
    left: 8%;
 }
 .our-card-img1{
@@ -248,7 +249,7 @@
     margin: 25px auto;
     font-weight: 800;
     font-size: 1rem;
-    /* max-width: 213px; */
+    max-width: 213px;
 }
 .our-card-description{
     font-weight: 500;
@@ -301,9 +302,93 @@ a{
     font-weight: 700;
     font-size: 2rem;
 }
+.bg-white{
+    /* background-color: white; */
+    /* color: white; */
+}
 /* responsiv mobail */
 @media screen and (max-width: 576px) {
     .logo-name, .nav-list, .btn-nav, #div-one{
+        display: none;
+    }
+
+    .menu-icon, .hr-row{
+        display: block;
+    }
+
+     .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0px 40px;
+    }
+    .banner-img{
+         padding: 0px 80px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description {
+        margin: 20px 0px;
+      }
+      
+    .stander-container{
+        flex-direction: column;
+        margin: 30px 40px;
+    }
+    .stander-title{
+        font-size: 1.8rem;
+        padding-bottom: 40px;
+    }
+    .icon-div{
+        display: none;
+    }
+    .our-container{
+        margin: 0px 20px;
+        /* grid-template-columns: 1fr; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #div-6{
+        display: block;
+    }
+    .our-btns-box{
+        position: absolute;
+        background-color: skyblue;
+        top: 68%;
+        left: 8%;
+     }
+     .our-cards-title{
+        font-weight: 700;
+        font-size: 0.7rem;
+        margin: 10px ;
+     }
+     .btn-parent{
+    }
+    .btn-chaid{
+        font-weight: 300;
+     
+        border-radius: 40px;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;  
+    }
+    /* footer */
+    .grid{
+        grid-template-columns: 1fr;
+    
+       gap: 50px;
+    } 
+    .footer-div{
+        padding: 80px ;
+    }
+    .footer-list{
+        gap: 0px;
+       }
+}
+
+/* tab */
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    /* .logo-name, .nav-list, .btn-nav, #div-one{
         display: none;
     }
 
@@ -338,17 +423,24 @@ a{
         display: none;
     }
     .our-container{
-        margin: 0px 20px;
+        margin: 0px 20px;*/
         /* grid-template-columns: 1fr; */
-        grid-template-columns: repeat(2, 1fr);
-    }
-    #div-6{
+        /* grid-template-columns: repeat(2, 1fr);
+    } */ 
+    /* #div-6{
         display: block;
     }
+    .our-btn-box{
+        position: absolute;
+        background-color: skyblue;
+        color: white;
+        top: 90%;
+        left: 8%;
+     }
     .our-btns-box{
         position: absolute;
         background-color: skyblue;
-        top: 57%;
+        top: 60%;
         left: 8%;
      }
      .our-cards-title{
@@ -365,9 +457,9 @@ a{
         padding: 5px 10px;
         border: none;
         cursor: pointer;  
-    }
+    } */
     /* footer */
-    .grid{
+    /* .grid{
         grid-template-columns: 1fr;
     
        gap: 50px;
@@ -377,5 +469,5 @@ a{
     }
     .footer-list{
         gap: 0px;
-       }
+       } */
 }
