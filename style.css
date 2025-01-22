@@ -28,6 +28,7 @@
 .display-flex{
     display: flex;
 }
+
 .btn-prymary{
    background-color: orange; 
    border-radius: 12px;
@@ -213,6 +214,11 @@
     background-color: white;
    
 }
+.our-card-img1{
+    width: 100%;
+    height: 40vh;
+    border-radius: 16px 16px 0px 0px;
+}
 .our-card-img{
     width: 100%;
     border-radius: 16px 16px 0px 0px;
@@ -255,7 +261,7 @@
 .btn-conta{
     padding-top: 48px ;
     text-align: center;
-    margin: 50px 0px 60px 0px;
+    padding: 80px 0px 60px 0px;
 }
 .btn-pry{
     background-color: #0a0a0a; 
@@ -266,9 +272,42 @@
     font-size: 1.3rem;
     border: none;
 } 
+
+/* footer */
+.footer{
+    background-color: rgb(1, 172, 253);
+    color: white;
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 170px;
+}
+.footer-div{
+    padding: 150px 0px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 1.3rem;
+    white-space: 25px;
+    margin-top: 35px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.footer-list{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.footer-logo-name{
+    font-weight: 700;
+    font-size: 2rem;
+}
 /* responsiv mobail */
-
-
 @media screen and (max-width: 576px) {
     .logo-name, .nav-list, .btn-nav, #div-one{
         display: none;
@@ -308,5 +347,17 @@
  
     #div-6{
         display: block;
+    }
+    /* footer */
+    .grid{
+        grid-template-columns: 1fr;
+    
+       gap: 50px;
     } 
+    .footer-div{
+        padding: 80px ;
+    }
+    .footer-list{
+        gap: 0px;
+       }
 }
