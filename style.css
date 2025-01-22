@@ -302,10 +302,7 @@ a{
     font-weight: 700;
     font-size: 2rem;
 }
-.bg-white{
-    /* background-color: white; */
-    /* color: white; */
-}
+
 /* responsiv mobail */
 @media screen and (max-width: 576px) {
     .logo-name, .nav-list, .btn-nav, #div-one{
@@ -353,7 +350,7 @@ a{
     .our-btns-box{
         position: absolute;
         background-color: skyblue;
-        top: 68%;
+        top: 60%;
         left: 8%;
      }
      .our-cards-title{
