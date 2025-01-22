@@ -21,31 +21,33 @@
     margin: 0px auto;
 }
 .link-prymary{
-    /* text-decoration: none; */
     font-weight: 700;
     font-size: 1.3rem;
 }
 .display-flex{
     display: flex;
 }
-
-.btn-prymary{
-   background-color: orange; 
-   border-radius: 12px;
-   padding: 10px 60px;
-   color: white;
-   font-weight: 600;
-   font-size: 1.3rem;
-   border: none;
+.btn{
+    border-radius: 12px;
+    padding: 10px 60px;
+    border: none;
+    cursor: pointer;  
 }
-/* main section{
-    margin-bottom: 60px;
-} */
+.btn-orange{
+   background-color: orange; 
+   color: white;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
 /* navbar */
 .navbar{
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px;
+    /* margin: 0px 20px; */
 }
 .logo{
     align-items: center;
@@ -101,9 +103,6 @@
     font-size: 1.3rem;
     color: rgb(17, 17, 17);
     margin:24px 0px ;
-}
-.btn-contant{
-    background-color: black;
 }
 
 /* stander */
@@ -216,7 +215,6 @@
 }
 .our-card-img1{
     width: 100%;
-    height: 40vh;
     border-radius: 16px 16px 0px 0px;
 }
 .our-card-img{
@@ -243,41 +241,23 @@
     font-size: 1rem;
     line-height: 28px;
 }
-/* .card-btn{
-    color: white;
-    background-color: rgb(60, 216, 232);
-    font-weight: 500;
-    font-size: 1rem;
-    border-radius: 47px;
-    padding: 15px 19px;
-    width:178px ;
-    position: absolute;
-    top: 45%;
-    left: 10%;
-} */
+
 #div-6{
     display: none;
 }
 .btn-conta{
-    padding-top: 48px ;
     text-align: center;
     padding: 80px 0px 60px 0px;
-}
-.btn-pry{
-    background-color: #0a0a0a; 
-    border-radius: 12px;
-    padding: 10px 60px;
-    color: white;
-    font-weight: 600;
-    font-size: 1.3rem;
-    border: none;
 } 
 
 /* footer */
-.footer{
+.footer {
     background-color: rgb(1, 172, 253);
     color: white;
     font-weight: bold;
+}
+a{
+    color: white;  
 }
 .grid{
     display: grid;
@@ -320,6 +300,10 @@
      .banner{
         flex-direction: column-reverse;
         text-align: center;
+        margin: 0px 40px;
+    }
+    .banner-img{
+         padding: 0px 80px;
     }
     .banner-title{
         font-size: 2rem;
@@ -330,7 +314,7 @@
       
     .stander-container{
         flex-direction: column;
-        margin: 0px 20px;
+        margin: 0px 40px;
     }
     .stander-title{
         font-size: 1.8rem;
