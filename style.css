@@ -92,6 +92,12 @@
     font-weight: 700;
     font-size: 3.5rem;
 }
+.banner-img{
+    /* padding: 0px 80px; */
+}
+.banner-imgs{
+    width: 100%;
+}
 .banner-title-style1{
     color: rgb(254, 163, 1);
 }
@@ -319,7 +325,7 @@ a{
         margin: 0px 40px;
     }
     .banner-img{
-         padding: 0px 80px;
+         padding: 0px 40px;
     }
     .banner-title{
         font-size: 2rem;
